@@ -30,6 +30,7 @@ body {
     font-family: "Open Sans", 'Arial', 'sans-serif';
     font-size: 18px;
     line-height: normal;
+    background-color: #F9F8F8;
 }
 
 img {
@@ -45,4 +46,9 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
 }

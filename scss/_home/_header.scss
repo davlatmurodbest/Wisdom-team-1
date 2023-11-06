@@ -1,0 +1,80 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0px;
+}
+
+.container__nav {
+    max-width: 1120px;
+    width: 100%;
+    margin-left: 180px;
+}
+
+.nav__text {
+    color: #333;
+    font-family: 'Futura PT';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__phone {
+    color: #333;
+    font-family: 'Futura PT';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__phone {
+    color: black;
+}
+
+.header {
+    background-color: white;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 61px;
+}
+
+.header__tags {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.header__link {
+    color: #333;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: #FFBD54;
+        text-decoration-thickness: 4px;
+
+    }
+}
+
+.header__link__img {
+    padding-right: 10px;
+}
+
+.header__zapros {
+    color: #333;
+    text-align: right;
+    font-family: 'Futura PT';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

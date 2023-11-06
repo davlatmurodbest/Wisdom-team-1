@@ -29,6 +29,7 @@ body {
   font-family: "Open Sans", "Arial", "sans-serif";
   font-size: 18px;
   line-height: normal;
+  background-color: #F9F8F8;
 }
 
 img {
@@ -45,6 +46,11 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -345,4 +351,107 @@ template {
 :root {
   --color-yellow: #FFBD54;
   --color-blacish: #333;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 0px;
+}
+
+.container__nav {
+  max-width: 1120px;
+  width: 100%;
+  margin-left: 180px;
+}
+
+.nav__text {
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav__phone {
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav__phone {
+  color: black;
+}
+
+.header {
+  background-color: white;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 61px;
+}
+
+.header__tags {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+.header__link {
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header__link:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFBD54;
+  text-decoration-thickness: 4px;
+}
+
+.header__link__img {
+  padding-right: 10px;
+}
+
+.header__zapros {
+  color: #333;
+  text-align: right;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 61px;
+}
+
+.footer__tags {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.info {
+  display: inline-block;
+}
+
+.footer__nav {
+  margin-top: -40px;
+}
+
+.footer__navv {
+  margin-top: -80px;
 }/*# sourceMappingURL=main.css.map */

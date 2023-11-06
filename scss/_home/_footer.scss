@@ -1,0 +1,23 @@
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+}
+
+.footer__tags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+
+.info {
+    display: inline-block;
+}
+
+.footer__nav {
+    margin-top: -40px;
+}
+
+.footer__navv {
+    margin-top: -80px;
+}
