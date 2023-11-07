@@ -4,6 +4,11 @@
     padding-top: 61px;
 }
 
+.footer__mobil {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer__tags {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,4 +25,21 @@
 
 .footer__navv {
     margin-top: -80px;
+}
+
+@media only screen and (max-width: 765px) {
+    .footer__tags {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__mobil {
+        display: grid;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+    .footer__link {
+        font-size: 12px;
+    }
 }

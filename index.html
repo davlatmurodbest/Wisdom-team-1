@@ -23,8 +23,10 @@
                     <a class="nav__phone" href="tel:+998951886442">(067) 634 -75 - 74</a>
                     <img src="./img/circle.svg" alt="circle" class="nav__pic" width="4" height="4">
                     <a class="nav__phone" href="tel:+998951886442">(0637) 57 - 01 - 31</a>
-                    <img src="./img/circle.svg" alt="circle" class="nav__pic" width="4" height="4">
-                    <a class="nav__phone" href="tel:+998951886442">(098) 266 - 43 - 89</a>
+                    <div class="circle__mobil">
+                        <img src="./img/circle.svg" alt="circle circle__mobil" class="nav__pic" width="4" height="4">
+                        <a class="nav__phone mobil__phone" href="tel:+998951886442">(098) 266 - 43 - 89</a>
+                    </div>
                 </div>
 
                 <div class="header__time">
@@ -37,11 +39,10 @@
     </div>
     <header class="header">
         <div class="container">
+            <a href="./index.html" class="header__logo__link">
+                <img src="./img/logo.svg" alt="logo" class="header__logo" width="178" height="87">
+            </a>
             <div class="header__block">
-                <a href="./index.html" class="header__logo__link">
-                    <img src="./img/logo.svg" alt="logo" class="header__logo" width="178" height="87">
-                </a>
-
                 <div class="header__tags">
                     <a href="./index.html" class="header__link">
                         <img class="header__link__img" src="./img/fish.svg" alt="fish" width="21" height="22">Главная
@@ -49,7 +50,7 @@
                     <a href="./index/about.html" class="header__link">О Клинике</a>
                     <a href="./index/service.html" class="header__link">Наши Услуги</a>
                     <a href="./index/blog.html" class="header__link">Полезные Статьи</a>
-                    <a href="./index/faq.html" class="header__link">FAQ</a>
+                    <a href="./index/faq.html" class="header__link header__sono--link">FAQ</a>
                     <a href="./index/contact.html" class="header__link">Контакты</a>
                 </div>
 
@@ -57,52 +58,65 @@
                     <img src="./img/panja.svg" alt="panja" class="header__pic" width="28" height="27"> Задать вопрос
                 </a>
             </div>
+
+            <button class="header__btn" type="menu">
+                <img class="enter" src="./img/enter.svg" alt="enter">
+                <img class="exit" src="./img/exit.svg" alt="enter">
+            </button>
         </div>
     </header>
 
     <main class="main">
-       <div class="container">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia veritatis dolor delectus, nostrum quisquam minima nemo ex, cupiditate quia ipsa maxime eum. Ipsum doloribus quas dolores veniam dignissimos accusamus ex!
-       </div>
+       <section class="animal">
+           <div class="container">
+                <div class="animal__box">
+                    <h1 class="animal__heading">Мы заботимся о <span class="blue">ваших питомцах!</span></h1>
+                    <p class="animal__text">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+                    <a href="#" class="animal__link">Наши услуги</a>
+                </div>
+           </div>
+       </section>
     </main>
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer__box">
                 <img src="./img/footer-logo.svg" alt="logo" class="header__logo" width="178" height="87">
                 <div class="footer__tags">
-                    <a href="./index.html" class="header__link">Главная</a>
-                    <a href="./index/about.html" class="header__link">О Клинике</a>
-                    <a href="./index/service.html" class="header__link">Наши Услуги</a>
-                    <a href="./index/blog.html" class="header__link">Полезные Статьи</a>
-                    <a href="./index/faq.html" class="header__link">FAQ</a>
-                    <a href="./index/contact.html" class="header__link">Контакты</a>
+                    <a href="./index.html" class="header__link footer__link">Главная</a>
+                    <a href="./index/about.html" class="header__link footer__link">О Клинике</a>
+                    <a href="./index/service.html" class="header__link footer__link">Наши Услуги</a>
+                    <a href="./index/blog.html" class="header__link footer__link">Полезные Статьи</a>
+                    <a href="./index/faq.html" class="header__link footer__link">FAQ</a>
+                    <a href="./index/contact.html" class="header__link footer__link">Контакты</a>
                 </div>
-                <div class="header__time ">
-                    <img src="./img/time.svg" alt="time" class="nav__pic footer__nav" width="14" height="15">
-                    <div class="info">
-                        <span class="nav__text"><b>Пн - Пт</b> 8:00 - 18:00</span><br>
-                        <span class="nav__text footer__text"><b>Сб - Вс</b> 8:00 - 14:00</span>
+                <div class="footer__mobil">
+                    <div class="header__time ">
+                        <img src="./img/time.svg" alt="time" class="nav__pic footer__nav" width="14" height="15">
+                        <div class="info ">
+                            <span class="nav__text footer__link"><b>Пн - Пт</b> 8:00 - 18:00</span><br>
+                            <span class="nav__text footer__text footer__link"><b>Сб - Вс</b> 8:00 - 14:00</span>
+                        </div>
                     </div>
-                </div>
-                <div class="header__home">
-                    <img src="./img/home.svg" alt="home" class="nav__pic footer__nav" width="14" height="13">
-                    <div class="info">
-                        <span class="nav__text">г. Мариуполь, <br>проспект Победы, 48а</span>
+                    <div class="header__home">
+                        <img src="./img/home.svg" alt="home" class="nav__pic footer__nav" width="14" height="13">
+                        <div class="info">
+                            <span class="nav__text footer__link">г. Мариуполь, <br>проспект Победы, 48а</span>
+                        </div>
                     </div>
-                </div>
-                <div class="header__phone">
-                    <img src="./img/phone.svg" alt="phone" class="nav__pic footer__navv" width="13" height="13">
-                    <div class="info">
-                        <a class="nav__phone" href="tel:+998951886442">(067) 634 -75 - 74</a><br>
-                        <a class="nav__phone" href="tel:+998951886442">(0637) 57 - 01 - 31</a><br>
-                        <a class="nav__phone" href="tel:+998951886442">(098) 266 - 43 - 89</a><br>
+                    <div class="header__phone">
+                        <img src="./img/phone.svg" alt="phone" class="nav__pic footer__navv" width="13" height="13">
+                        <div class="info">
+                            <a class="nav__phone footer__link" href="tel:+998951886442">(067) 634 -75 - 74</a><br>
+                            <a class="nav__phone footer__link" href="tel:+998951886442">(0637) 57 - 01 - 31</a><br>
+                            <a class="nav__phone footer__link" href="tel:+998951886442">(098) 266 - 43 - 89</a><br>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <script src="./js/main.js"></script>
 </body>
 
